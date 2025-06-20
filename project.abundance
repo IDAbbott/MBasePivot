@@ -30,15 +30,10 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
+                    "x": 0.9674528301886791,
+                    "y": 0.2099009900990099,
                     "uniqueID": "82b7908e-9385-47b2-ab2f-d927b108b128",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "43b20ca8-e3af-4b69-90c2-7f4e816ab409"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -242,8 +237,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Stud",
-                    "x": 0.0900943396226415,
-                    "y": 0.8297029702970297,
+                    "x": 0.08254716981132076,
+                    "y": 0.8118811881188119,
                     "uniqueID": "22e2bfb7-5a27-472e-b2c1-621655586ece",
                     "ioValues": [],
                     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -583,8 +578,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.36745283018867925,
-                    "y": 0.6712871287128713,
+                    "x": 0.36367924528301887,
+                    "y": 0.6574257425742575,
                     "uniqueID": "015fdfd3-06eb-4a74-975f-28525f23d337",
                     "ioValues": [
                         {
@@ -609,8 +604,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.40283018867924525,
-                    "y": 0.7584158415841584,
+                    "x": 0.39622641509433965,
+                    "y": 0.7405940594059406,
                     "uniqueID": "527693b8-d6fa-4605-a6e0-121a8369d1af",
                     "ioValues": [
                         {
@@ -635,8 +630,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.48962264150943396,
-                    "y": 0.3900990099009901,
+                    "x": 0.5089622641509434,
+                    "y": 0.19207920792079208,
                     "uniqueID": "43b20ca8-e3af-4b69-90c2-7f4e816ab409",
                     "ioValues": [
                         {
@@ -752,6 +747,254 @@
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5735849056603773,
+                    "y": 0.5168316831683168,
+                    "uniqueID": "340b4618-4634-4ea2-ba76-0d438254418a",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6075471698113207,
+                    "y": 0.601980198019802,
+                    "uniqueID": "8c732d39-baef-4b39-bdfa-940dfb90c3f5",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 55
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6641509433962265,
+                    "y": 0.6772277227722773,
+                    "uniqueID": "7e62a3a7-6e92-406d-8e4c-feb948ac6319",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 125
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5320754716981132,
+                    "y": 0.4198019801980198,
+                    "uniqueID": "47100ea3-2414-44fa-a461-6b6f5eecd7c1",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.7212264150943396,
+                    "y": 0.794059405940594,
+                    "uniqueID": "0c819236-4f77-4443-bf44-e47f33464006",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -110
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.7783018867924528,
+                    "y": 0.9069306930693068,
+                    "uniqueID": "3f8e10ad-5ae3-437d-af66-defe13b627e9",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -70
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.5863207547169811,
+                    "y": 0.8871287128712871,
+                    "uniqueID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "1fa6149e-dbda-4f4e-a179-27853928ac4c"
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 75
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Moves a shape laterally in X, Y, Z."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.5320754716981132,
+                    "y": 0.8158415841584158,
+                    "uniqueID": "1fa6149e-dbda-4f4e-a179-27853928ac4c",
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 3.5
+                        }
+                    ],
+                    "description": "Creates a new circle."
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7669811320754716,
+                    "y": 0.5306930693069307,
+                    "uniqueID": "b24cd3af-cde8-4522-8e2d-379b65332f69",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": "47100ea3-2414-44fa-a461-6b6f5eecd7c1"
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": "340b4618-4634-4ea2-ba76-0d438254418a"
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": "8c732d39-baef-4b39-bdfa-940dfb90c3f5"
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": "7e62a3a7-6e92-406d-8e4c-feb948ac6319"
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": "0c819236-4f77-4443-bf44-e47f33464006"
+                        },
+                        {
+                            "name": "Shape 6",
+                            "ioValue": "3f8e10ad-5ae3-437d-af66-defe13b627e9"
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.8320754716981131,
+                    "y": 0.26534653465346536,
+                    "uniqueID": "d34d9a77-0159-4f47-a783-38a20577389c",
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": "43b20ca8-e3af-4b69-90c2-7f4e816ab409"
+                        },
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ],
+                    "description": "Subtracts shape two from shape one."
                 }
             ],
             "allConnectors": [
@@ -911,10 +1154,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": "43b20ca8-e3af-4b69-90c2-7f4e816ab409",
-                    "ap2ID": "82b7908e-9385-47b2-ab2f-d927b108b128"
+                    "ap2ID": "d34d9a77-0159-4f47-a783-38a20577389c"
                 },
                 {
                     "ap1Name": "geometry",
@@ -936,6 +1179,97 @@
                     "ap2Primary": false,
                     "ap1ID": "db76307c-9dc7-4fd5-8b59-e356028447a2",
                     "ap2ID": "43b20ca8-e3af-4b69-90c2-7f4e816ab409"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": "340b4618-4634-4ea2-ba76-0d438254418a",
+                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": "8c732d39-baef-4b39-bdfa-940dfb90c3f5",
+                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": "7e62a3a7-6e92-406d-8e4c-feb948ac6319",
+                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": "47100ea3-2414-44fa-a461-6b6f5eecd7c1",
+                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": "0c819236-4f77-4443-bf44-e47f33464006",
+                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": "3f8e10ad-5ae3-437d-af66-defe13b627e9",
+                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
+                    "ap2ID": "47100ea3-2414-44fa-a461-6b6f5eecd7c1"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
+                    "ap2ID": "340b4618-4634-4ea2-ba76-0d438254418a"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
+                    "ap2ID": "8c732d39-baef-4b39-bdfa-940dfb90c3f5"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
+                    "ap2ID": "7e62a3a7-6e92-406d-8e4c-feb948ac6319"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
+                    "ap2ID": "0c819236-4f77-4443-bf44-e47f33464006"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
+                    "ap2ID": "3f8e10ad-5ae3-437d-af66-defe13b627e9"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "1fa6149e-dbda-4f4e-a179-27853928ac4c",
+                    "ap2ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
                 }
             ],
             "fileTypeVersion": 1,
