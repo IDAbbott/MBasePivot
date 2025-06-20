@@ -44,8 +44,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.028773584905660378,
-                    "y": 0.29504950495049503,
+                    "x": 0.033962264150943396,
+                    "y": 0.27524752475247527,
                     "uniqueID": "05c42a67-c1eb-4e22-ae02-3544c713b9d4",
                     "ioValues": [
                         {
@@ -58,8 +58,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.0858490566037736,
-                    "y": 0.2594059405940594,
+                    "x": 0.08396226415094339,
+                    "y": 0.2811881188118812,
                     "uniqueID": "da3e7d4a-2f24-4af3-b720-51aa6c2d1f72",
                     "ioValues": [
                         {
@@ -68,7 +68,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 90
+                            "ioValue": 60
                         },
                         {
                             "name": "yDist",
@@ -84,8 +84,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.02924528301886792,
-                    "y": 0.5306930693069307,
+                    "x": 0.026415094339622643,
+                    "y": 0.13267326732673268,
                     "uniqueID": "4a14954a-3b7b-45f1-9847-b71566f08a33",
                     "ioValues": [
                         {
@@ -98,8 +98,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.025943396226415092,
-                    "y": 0.1405940594059406,
+                    "x": 0.03349056603773585,
+                    "y": 0.5227722772277228,
                     "uniqueID": "185f9176-d8f8-43b1-8737-0748953ac751",
                     "ioValues": [
                         {
@@ -130,8 +130,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.15235849056603773,
-                    "y": 0.14455445544554457,
+                    "x": 0.19481132075471697,
+                    "y": 0.3287128712871287,
                     "uniqueID": "afebfc96-4fb3-456c-8750-cc25ab707a5b",
                     "ioValues": [
                         {
@@ -186,11 +186,11 @@
                     "ioValues": [
                         {
                             "name": "geometry1",
-                            "ioValue": "4a14954a-3b7b-45f1-9847-b71566f08a33"
+                            "ioValue": "ac5818b2-b9a1-4f25-bb62-bd0c1cf9cb6b"
                         },
                         {
                             "name": "geometry2",
-                            "ioValue": "ac5818b2-b9a1-4f25-bb62-bd0c1cf9cb6b"
+                            "ioValue": "185f9176-d8f8-43b1-8737-0748953ac751"
                         }
                     ],
                     "description": "Subtracts shape two from shape one."
@@ -257,18 +257,6 @@
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
                     "unionType": "Fusion"
-                },
-                {
-                    "atomType": "Import",
-                    "name": "Import",
-                    "x": 0.34858490566037736,
-                    "y": 0.7841584158415841,
-                    "uniqueID": "400a8655-0c27-4e92-b191-d01de8ccb9d2",
-                    "ioValues": [],
-                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "CCGSPitchForks (1).svg",
-                    "type": "SVG",
-                    "SVGwidth": 10
                 }
             ],
             "allConnectors": [
@@ -295,17 +283,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": "4a14954a-3b7b-45f1-9847-b71566f08a33",
-                    "ap2ID": "c99dd50a-b930-4200-aec3-3afddabfad3c"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": "185f9176-d8f8-43b1-8737-0748953ac751",
                     "ap2ID": "afebfc96-4fb3-456c-8750-cc25ab707a5b"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": "185f9176-d8f8-43b1-8737-0748953ac751",
+                    "ap2ID": "c99dd50a-b930-4200-aec3-3afddabfad3c"
                 },
                 {
                     "ap1Name": "geometry",
@@ -330,7 +318,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": "ac5818b2-b9a1-4f25-bb62-bd0c1cf9cb6b",
                     "ap2ID": "c99dd50a-b930-4200-aec3-3afddabfad3c"
