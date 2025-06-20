@@ -757,7 +757,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 55
+                            "ioValue": 53
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -783,7 +783,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 125
+                            "ioValue": 127
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
