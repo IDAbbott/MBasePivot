@@ -7,7 +7,53 @@
     "ioValues": [],
     "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
     "topLevel": true,
-    "allAtoms": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": "2982e743-f809-4b3f-a569-4e890f2bab7f",
+            "ioValues": [],
+            "description": "Connect geometry here to make it available in the next level up. "
+        },
+        {
+            "atomType": "Molecule",
+            "name": "ImportSled",
+            "x": 0.10141509433962265,
+            "y": 0.3108910891089109,
+            "uniqueID": "eedd9198-4b01-4e42-bdac-4597b627dff8",
+            "ioValues": [],
+            "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": "82b7908e-9385-47b2-ab2f-d927b108b128",
+                    "ioValues": [],
+                    "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Import",
+                    "name": "Import",
+                    "x": 0.1669811320754717,
+                    "y": 0.44752475247524753,
+                    "uniqueID": "b8fd3856-de69-4b61-8914-8ee48213f093",
+                    "ioValues": [],
+                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                    "fileName": "CutdownSled.3mf",
+                    "type": "STEP",
+                    "SVGwidth": 10
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1,
+            "compiledBom": {}
+        }
+    ],
     "allConnectors": [],
     "unitsKey": "MM",
     "fileTypeVersion": 1,
