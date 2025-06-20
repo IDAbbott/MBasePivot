@@ -53,8 +53,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.03773584905660377,
-                    "y": 0.6237623762376238,
+                    "x": 0.03632075471698113,
+                    "y": 0.7564356435643564,
                     "uniqueID": "05c42a67-c1eb-4e22-ae02-3544c713b9d4",
                     "ioValues": [
                         {
@@ -136,10 +136,6 @@
                         {
                             "name": "Shape 3",
                             "ioValue": "da3e7d4a-2f24-4af3-b720-51aa6c2d1f72"
-                        },
-                        {
-                            "name": "Shape 4",
-                            "ioValue": "05c42a67-c1eb-4e22-ae02-3544c713b9d4"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -159,13 +155,6 @@
                     "ap2Primary": true,
                     "ap1ID": "05c42a67-c1eb-4e22-ae02-3544c713b9d4",
                     "ap2ID": "da3e7d4a-2f24-4af3-b720-51aa6c2d1f72"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": "05c42a67-c1eb-4e22-ae02-3544c713b9d4",
-                    "ap2ID": "1f2550e8-922b-47a7-8c19-1d2125f866b1"
                 },
                 {
                     "ap1Name": "geometry",
