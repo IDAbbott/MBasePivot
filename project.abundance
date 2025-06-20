@@ -33,12 +33,7 @@
                     "x": 0.98,
                     "y": 0.5,
                     "uniqueID": "82b7908e-9385-47b2-ab2f-d927b108b128",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "042dc28c-0400-4926-aed8-0db98532350a"
-                        }
-                    ],
+                    "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
                 },
                 {
@@ -90,7 +85,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 130
+                            "ioValue": 160
                         }
                     ],
                     "description": "Creates a new circle."
@@ -104,7 +99,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 100
+                            "ioValue": 130
                         }
                     ],
                     "description": "Creates a new circle."
@@ -238,25 +233,6 @@
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.48066037735849054,
-                    "y": 0.31485148514851485,
-                    "uniqueID": "042dc28c-0400-4926-aed8-0db98532350a",
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "893b5dcb-dad8-48c7-8fc7-5d30313ad58c"
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "4baccbc9-1c27-447b-9946-e389d475d532"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
                 },
                 {
                     "atomType": "Molecule",
@@ -652,13 +628,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": "893b5dcb-dad8-48c7-8fc7-5d30313ad58c",
-                    "ap2ID": "042dc28c-0400-4926-aed8-0db98532350a"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": "ac5818b2-b9a1-4f25-bb62-bd0c1cf9cb6b",
@@ -677,20 +646,6 @@
                     "ap2Primary": true,
                     "ap1ID": "12fa1001-a59d-4a7e-b095-9afa95c779f8",
                     "ap2ID": "4baccbc9-1c27-447b-9946-e389d475d532"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "4baccbc9-1c27-447b-9946-e389d475d532",
-                    "ap2ID": "042dc28c-0400-4926-aed8-0db98532350a"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "042dc28c-0400-4926-aed8-0db98532350a",
-                    "ap2ID": "82b7908e-9385-47b2-ab2f-d927b108b128"
                 },
                 {
                     "ap1Name": "Geometry",
