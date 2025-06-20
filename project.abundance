@@ -39,13 +39,13 @@
                 {
                     "atomType": "Import",
                     "name": "Import",
-                    "x": 0.11745283018867926,
-                    "y": 0.5188118811881188,
-                    "uniqueID": "0503e1e6-4516-47b7-9084-c1ed9761c034",
+                    "x": 0.11933962264150944,
+                    "y": 0.49108910891089114,
+                    "uniqueID": "5daade75-ecca-4310-9566-5b5c345a0ffe",
                     "ioValues": [],
                     "description": "Import Atom, let's you choose a type of file to import and use in your design.",
-                    "fileName": "CutdownSled.stl",
-                    "type": "STL",
+                    "fileName": "Sled.step",
+                    "type": "STEP",
                     "SVGwidth": 10
                 }
             ],
