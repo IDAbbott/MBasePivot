@@ -889,8 +889,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.23820754716981132,
-                    "y": 0.6356435643564357,
+                    "x": 0.239622641509434,
+                    "y": 0.6336633663366337,
                     "uniqueID": "64f11d68-dfc4-4ddd-a3ea-6e651fe11030",
                     "ioValues": [
                         {
@@ -899,7 +899,7 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 30
+                            "ioValue": 50
                         }
                     ],
                     "description": "Extrudes a 2D shape. Input can be negitive. "
@@ -984,11 +984,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 60
+                            "ioValue": 61
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": -16
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1014,7 +1014,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 20
+                            "ioValue": 30
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
