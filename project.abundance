@@ -687,13 +687,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.46273584905660375,
-                    "y": 0.699009900990099,
+                    "x": 0.4844339622641509,
+                    "y": 0.6871287128712872,
                     "uniqueID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "dc42506e-ecba-4531-abf6-13fea92595e8"
+                            "ioValue": ""
                         },
                         {
                             "name": "xDist",
@@ -701,11 +701,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 75
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 3.5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -907,8 +907,8 @@
                 {
                     "atomType": "Fusion",
                     "name": "Fusion",
-                    "x": 0.3589622641509434,
-                    "y": 0.6396039603960396,
+                    "x": 0.3339622641509434,
+                    "y": 0.6356435643564357,
                     "uniqueID": "dc42506e-ecba-4531-abf6-13fea92595e8",
                     "ioValues": [
                         {
@@ -1188,13 +1188,6 @@
                     "ap2Primary": false,
                     "ap1ID": "64f11d68-dfc4-4ddd-a3ea-6e651fe11030",
                     "ap2ID": "dc42506e-ecba-4531-abf6-13fea92595e8"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": "dc42506e-ecba-4531-abf6-13fea92595e8",
-                    "ap2ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3"
                 }
             ],
             "fileTypeVersion": 1,
