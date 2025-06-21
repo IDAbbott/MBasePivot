@@ -104,7 +104,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 145
+                            "ioValue": 142
                         }
                     ],
                     "description": "Creates a new circle."
@@ -234,7 +234,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 5
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -827,8 +827,8 @@
                 {
                     "atomType": "RegularPolygon",
                     "name": "RegularPolygon",
-                    "x": 0.12311320754716983,
-                    "y": 0.8851485148514852,
+                    "x": 0.10235849056603774,
+                    "y": 0.8613861386138614,
                     "uniqueID": "a6d5d948-2043-43d3-b540-83f162b588d4",
                     "ioValues": [
                         {
@@ -851,7 +851,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "978737aa-5110-47fb-9282-19b837b14404"
+                            "ioValue": "f521822a-ba79-4e76-9c79-7c6403b5abaf"
                         },
                         {
                             "name": "xDist",
@@ -988,7 +988,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -16
+                            "ioValue": -24
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -1022,9 +1022,9 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.17735849056603775,
-                    "y": 0.9108910891089109,
-                    "uniqueID": "978737aa-5110-47fb-9282-19b837b14404",
+                    "x": 0.15990566037735848,
+                    "y": 0.8732673267326732,
+                    "uniqueID": "f521822a-ba79-4e76-9c79-7c6403b5abaf",
                     "ioValues": [
                         {
                             "name": "geometry",
@@ -1040,7 +1040,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 10
+                            "ioValue": 30
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -1227,7 +1227,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": "a6d5d948-2043-43d3-b540-83f162b588d4",
-                    "ap2ID": "978737aa-5110-47fb-9282-19b837b14404"
+                    "ap2ID": "f521822a-ba79-4e76-9c79-7c6403b5abaf"
                 },
                 {
                     "ap1Name": "geometry",
@@ -1324,7 +1324,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": "978737aa-5110-47fb-9282-19b837b14404",
+                    "ap1ID": "f521822a-ba79-4e76-9c79-7c6403b5abaf",
                     "ap2ID": "51733ef1-885b-4f57-8fc4-8192a6935e39"
                 }
             ],
