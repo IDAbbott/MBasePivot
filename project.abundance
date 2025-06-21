@@ -44,13 +44,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.033962264150943396,
-                    "y": 0.27524752475247527,
+                    "x": 0.024528301886792454,
+                    "y": 0.33069306930693065,
                     "uniqueID": "05c42a67-c1eb-4e22-ae02-3544c713b9d4",
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 63
+                            "ioValue": 100
                         }
                     ],
                     "description": "Creates a new circle."
@@ -104,7 +104,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 142
+                            "ioValue": 130
                         }
                     ],
                     "description": "Creates a new circle."
@@ -112,8 +112,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.26037735849056604,
-                    "y": 0.18217821782178217,
+                    "x": 0.2650943396226415,
+                    "y": 0.18415841584158418,
                     "uniqueID": "dec39cb2-c96e-42d2-bf7a-f759fda2eb4e",
                     "ioValues": [
                         {
@@ -216,8 +216,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.369811320754717,
-                    "y": 0.300990099009901,
+                    "x": 0.3707547169811321,
+                    "y": 0.30297029702970296,
                     "uniqueID": "4baccbc9-1c27-447b-9946-e389d475d532",
                     "ioValues": [
                         {
@@ -234,7 +234,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -988,7 +988,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -24
+                            "ioValue": -23
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
