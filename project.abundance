@@ -50,7 +50,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 100
+                            "ioValue": 62
                         }
                     ],
                     "description": "Creates a new circle."
@@ -104,7 +104,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 130
+                            "ioValue": 100
                         }
                     ],
                     "description": "Creates a new circle."
@@ -166,8 +166,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.040566037735849055,
-                    "y": 0.6970297029702971,
+                    "x": 0.04575471698113207,
+                    "y": 0.7009900990099011,
                     "uniqueID": "ac5818b2-b9a1-4f25-bb62-bd0c1cf9cb6b",
                     "ioValues": [
                         {
@@ -180,8 +180,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.18632075471698112,
-                    "y": 0.4930693069306931,
+                    "x": 0.19150943396226414,
+                    "y": 0.499009900990099,
                     "uniqueID": "c99dd50a-b930-4200-aec3-3afddabfad3c",
                     "ioValues": [
                         {
@@ -687,8 +687,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4117924528301887,
-                    "y": 0.6475247524752475,
+                    "x": 0.4023584905660378,
+                    "y": 0.4811881188118811,
                     "uniqueID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
                     "ioValues": [
                         {
@@ -924,36 +924,10 @@
                     "unionType": "Fusion"
                 },
                 {
-                    "atomType": "Move",
-                    "name": "Move",
-                    "x": 0.4056603773584906,
-                    "y": 0.4351485148514852,
-                    "uniqueID": "c2dff450-b0f0-4f90-b523-6de6aa4d6e9d",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "63b1a78d-dfeb-424e-b65c-deeb03c37671"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ],
-                    "description": "Moves a shape laterally in X, Y, Z."
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.47216981132075475,
-                    "y": 0.801980198019802,
+                    "x": 0.4660377358490566,
+                    "y": 0.596039603960396,
                     "uniqueID": "83fb8611-304c-45b5-a14b-c558ecb0fd6f",
                     "ioValues": [
                         {
@@ -996,8 +970,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.4080188679245283,
-                    "y": 0.8752475247524752,
+                    "x": 0.42641509433962266,
+                    "y": 0.7841584158415841,
                     "uniqueID": "0c73246a-e35b-4793-8ee2-1d40cb0c2d71",
                     "ioValues": [
                         {
