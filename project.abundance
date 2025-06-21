@@ -944,8 +944,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3617924528301887,
-                    "y": 0.794059405940594,
+                    "x": 0.3608490566037736,
+                    "y": 0.7861386138613861,
                     "uniqueID": "59caf2f2-2ddc-4de8-9fe8-d44531ea16a1",
                     "ioValues": [
                         {
@@ -958,7 +958,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 61
+                            "ioValue": 60
                         },
                         {
                             "name": "zDist",
@@ -970,8 +970,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.42641509433962266,
-                    "y": 0.7841584158415841,
+                    "x": 0.4212264150943396,
+                    "y": 0.7564356435643564,
                     "uniqueID": "0c73246a-e35b-4793-8ee2-1d40cb0c2d71",
                     "ioValues": [
                         {
@@ -988,7 +988,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 25
+                            "ioValue": 0
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
