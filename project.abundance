@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "SledPivot",
-            "x": 0.10141509433962265,
-            "y": 0.3108910891089109,
+            "x": 0.10047169811320755,
+            "y": 0.30495049504950494,
             "uniqueID": "eedd9198-4b01-4e42-bdac-4597b627dff8",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
