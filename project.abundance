@@ -11,8 +11,8 @@
         {
             "atomType": "Output",
             "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
+            "x": 0.9764150943396226,
+            "y": 0.49504950495049505,
             "uniqueID": "2982e743-f809-4b3f-a569-4e890f2bab7f",
             "ioValues": [
                 {
@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "SledPivot",
-            "x": 0.15471698113207547,
-            "y": 0.6534653465346535,
+            "x": 0.15283018867924528,
+            "y": 0.6415841584158416,
             "uniqueID": "eedd9198-4b01-4e42-bdac-4597b627dff8",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -127,8 +127,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5599056603773586,
-                    "y": 0.12277227722772278,
+                    "x": 0.560377358490566,
+                    "y": 0.10495049504950495,
                     "uniqueID": "47100ea3-2414-44fa-a461-6b6f5eecd7c1",
                     "ioValues": [
                         {
@@ -396,8 +396,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.3556603773584906,
-                    "y": 0.699009900990099,
+                    "x": 0.35188679245283017,
+                    "y": 0.6970297029702971,
                     "uniqueID": "59caf2f2-2ddc-4de8-9fe8-d44531ea16a1",
                     "ioValues": [
                         {
@@ -406,7 +406,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 15
                         },
                         {
                             "name": "yDist",
@@ -712,7 +712,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 90
+                            "ioValue": 70
                         },
                         {
                             "name": "yDist",
@@ -774,8 +774,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.2509433962264151,
-                    "y": 0.4,
+                    "x": 0.25754716981132075,
+                    "y": 0.394059405940594,
                     "uniqueID": "87c57a2e-d02b-4ad8-b046-7a71fc24995a",
                     "ioValues": [
                         {
@@ -936,11 +936,11 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 40
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 150
                         }
                     ],
                     "description": "Creates a new rectangle."
