@@ -648,8 +648,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.13726415094339622,
-                    "y": 0.39207920792079204,
+                    "x": 0.13679245283018868,
+                    "y": 0.38415841584158417,
                     "uniqueID": "87824814-2dd2-4f0e-ab35-0b928e5fc5cb",
                     "ioValues": [
                         {
@@ -658,7 +658,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -50
+                            "ioValue": -70
                         },
                         {
                             "name": "yDist",
@@ -756,8 +756,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6339622641509434,
-                    "y": 0.18613861386138614,
+                    "x": 0.6367924528301887,
+                    "y": 0.16633663366336635,
                     "uniqueID": "c449c234-afdc-44b1-af7d-44d019dce219",
                     "ioValues": [
                         {
@@ -788,8 +788,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.24669811320754714,
-                    "y": 0.8,
+                    "x": 0.24481132075471698,
+                    "y": 0.79009900990099,
                     "uniqueID": "d8929cb1-800b-4502-982a-6375e8fcb469",
                     "ioValues": [
                         {
@@ -824,8 +824,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.44150943396226416,
-                    "y": 0.6574257425742575,
+                    "x": 0.4476415094339623,
+                    "y": 0.6534653465346535,
                     "uniqueID": "19e36a0c-a42e-44cd-9ab2-b52d22ab3fc6",
                     "ioValues": [
                         {
@@ -834,7 +834,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -15
+                            "ioValue": -20
                         },
                         {
                             "name": "yDist",
@@ -860,7 +860,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 5
+                            "ioValue": -15
                         },
                         {
                             "name": "yDist",
@@ -904,7 +904,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 20
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
