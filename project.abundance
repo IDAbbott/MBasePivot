@@ -41,7 +41,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                            "ioValue": "c3b865d2-5683-45aa-b826-2c579b467dfa"
                         }
                     ],
                     "description": "Connect geometry here to make it available in the next level up. "
@@ -177,32 +177,6 @@
                     "description": "Moves a shape laterally in X, Y, Z."
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.7330188679245283,
-                    "y": 0.5227722772277228,
-                    "uniqueID": "b24cd3af-cde8-4522-8e2d-379b65332f69",
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": "47100ea3-2414-44fa-a461-6b6f5eecd7c1"
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": "340b4618-4634-4ea2-ba76-0d438254418a"
-                        },
-                        {
-                            "name": "Shape 3",
-                            "ioValue": "8c732d39-baef-4b39-bdfa-940dfb90c3f5"
-                        },
-                        {
-                            "name": "Shape 4",
-                            "ioValue": "7e62a3a7-6e92-406d-8e4c-feb948ac6319"
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.06132075471698114,
@@ -328,7 +302,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 15
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
@@ -370,8 +344,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5316037735849056,
-                    "y": 0.6336633663366337,
+                    "x": 0.5297169811320754,
+                    "y": 0.7564356435643564,
                     "uniqueID": "b6e636ed-2959-4262-84c2-034cb99062ad",
                     "ioValues": [
                         {
@@ -402,7 +376,7 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": ""
+                            "ioValue": "59caf2f2-2ddc-4de8-9fe8-d44531ea16a1"
                         },
                         {
                             "name": "x-axis degrees",
@@ -414,7 +388,59 @@
                         },
                         {
                             "name": "z-axis degrees",
+                            "ioValue": 240
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.718867924528302,
+                    "y": 0.45742574257425744,
+                    "uniqueID": "c3b865d2-5683-45aa-b826-2c579b467dfa",
+                    "ioValues": [
+                        {
+                            "name": "Shape 1",
+                            "ioValue": "47100ea3-2414-44fa-a461-6b6f5eecd7c1"
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": "b6e636ed-2959-4262-84c2-034cb99062ad"
+                        },
+                        {
+                            "name": "Shape 3",
+                            "ioValue": "165cbf94-c224-4f77-a4a9-e97851b9ed09"
+                        },
+                        {
+                            "name": "Shape 4",
+                            "ioValue": "ad8c4bc5-1e7b-4b3a-954b-535f8085383f"
+                        }
+                    ],
+                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.46320754716981133,
+                    "y": 0.5742574257425742,
+                    "uniqueID": "ad8c4bc5-1e7b-4b3a-954b-535f8085383f",
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "59caf2f2-2ddc-4de8-9fe8-d44531ea16a1"
+                        },
+                        {
+                            "name": "x-axis degrees",
                             "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 60
                         }
                     ],
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
@@ -423,31 +449,10 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": "340b4618-4634-4ea2-ba76-0d438254418a",
-                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": "8c732d39-baef-4b39-bdfa-940dfb90c3f5",
-                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": "7e62a3a7-6e92-406d-8e4c-feb948ac6319",
-                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": "47100ea3-2414-44fa-a461-6b6f5eecd7c1",
-                    "ap2ID": "b24cd3af-cde8-4522-8e2d-379b65332f69"
+                    "ap2ID": "c3b865d2-5683-45aa-b826-2c579b467dfa"
                 },
                 {
                     "ap1Name": "geometry",
@@ -476,13 +481,6 @@
                     "ap2Primary": true,
                     "ap1ID": "a465db8d-fd1f-4024-80fc-2dd552bb6fc3",
                     "ap2ID": "7e62a3a7-6e92-406d-8e4c-feb948ac6319"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": "b24cd3af-cde8-4522-8e2d-379b65332f69",
-                    "ap2ID": "82b7908e-9385-47b2-ab2f-d927b108b128"
                 },
                 {
                     "ap1Name": "geometry",
@@ -544,8 +542,50 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": "59caf2f2-2ddc-4de8-9fe8-d44531ea16a1",
+                    "ap2ID": "165cbf94-c224-4f77-a4a9-e97851b9ed09"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "59caf2f2-2ddc-4de8-9fe8-d44531ea16a1",
+                    "ap2ID": "ad8c4bc5-1e7b-4b3a-954b-535f8085383f"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": "f521822a-ba79-4e76-9c79-7c6403b5abaf",
                     "ap2ID": "51733ef1-885b-4f57-8fc4-8192a6935e39"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": "b6e636ed-2959-4262-84c2-034cb99062ad",
+                    "ap2ID": "c3b865d2-5683-45aa-b826-2c579b467dfa"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": "165cbf94-c224-4f77-a4a9-e97851b9ed09",
+                    "ap2ID": "c3b865d2-5683-45aa-b826-2c579b467dfa"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": "c3b865d2-5683-45aa-b826-2c579b467dfa",
+                    "ap2ID": "82b7908e-9385-47b2-ab2f-d927b108b128"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": "ad8c4bc5-1e7b-4b3a-954b-535f8085383f",
+                    "ap2ID": "c3b865d2-5683-45aa-b826-2c579b467dfa"
                 }
             ],
             "fileTypeVersion": 1,
