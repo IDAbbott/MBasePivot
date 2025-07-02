@@ -774,8 +774,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.04905660377358491,
-                    "y": 0.8554455445544555,
+                    "x": 0.05047169811320755,
+                    "y": 0.8693069306930693,
                     "uniqueID": "07a5c956-c8fc-48fb-a6fe-83b0aa8b75a5",
                     "ioValues": [
                         {
@@ -834,7 +834,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -20
+                            "ioValue": 10
                         },
                         {
                             "name": "yDist",
@@ -856,11 +856,11 @@
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": "181b235a-f938-4043-acb0-8c9ea77abff0"
+                            "ioValue": "07a5c956-c8fc-48fb-a6fe-83b0aa8b75a5"
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -15
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -944,13 +944,6 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": "181b235a-f938-4043-acb0-8c9ea77abff0",
-                    "ap2ID": "3ea81a8a-442e-4bdc-9ed3-2e6732c38a51"
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": "1284ada2-9037-4d41-9466-20b42921de2c",
                     "ap2ID": "e1b8341b-9157-43dc-934f-c0e473178454"
                 },
@@ -981,6 +974,13 @@
                     "ap2Primary": false,
                     "ap1ID": "07a5c956-c8fc-48fb-a6fe-83b0aa8b75a5",
                     "ap2ID": "d8929cb1-800b-4502-982a-6375e8fcb469"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": "07a5c956-c8fc-48fb-a6fe-83b0aa8b75a5",
+                    "ap2ID": "3ea81a8a-442e-4bdc-9ed3-2e6732c38a51"
                 },
                 {
                     "ap1Name": "geometry",
