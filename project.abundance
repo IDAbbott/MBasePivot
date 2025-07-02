@@ -17,7 +17,7 @@
             "ioValues": [
                 {
                     "name": "number or geometry",
-                    "ioValue": "eedd9198-4b01-4e42-bdac-4597b627dff8"
+                    "ioValue": "3c2dd314-9f91-4067-a225-a774d82b63ae"
                 }
             ],
             "description": "Connect geometry here to make it available in the next level up. "
@@ -25,8 +25,8 @@
         {
             "atomType": "Molecule",
             "name": "SledPivot",
-            "x": 0.4985849056603774,
-            "y": 0.42772277227722777,
+            "x": 0.15471698113207547,
+            "y": 0.6534653465346535,
             "uniqueID": "eedd9198-4b01-4e42-bdac-4597b627dff8",
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -323,8 +323,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.23584905660377356,
-                    "y": 0.8435643564356436,
+                    "x": 0.23490566037735852,
+                    "y": 0.8455445544554455,
                     "uniqueID": "37f256f1-5841-4260-8cbc-e644516ac178",
                     "ioValues": [
                         {
@@ -654,7 +654,7 @@
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": "eedd9198-4b01-4e42-bdac-4597b627dff8"
+                    "ioValue": "3c2dd314-9f91-4067-a225-a774d82b63ae"
                 },
                 {
                     "name": "Resolution (dpi)",
@@ -1055,21 +1055,53 @@
             ],
             "fileTypeVersion": 1,
             "compiledBom": {}
+        },
+        {
+            "atomType": "Difference",
+            "name": "Difference",
+            "x": 0.41745283018867924,
+            "y": 0.44356435643564357,
+            "uniqueID": "3c2dd314-9f91-4067-a225-a774d82b63ae",
+            "ioValues": [
+                {
+                    "name": "geometry1",
+                    "ioValue": "9f2691bc-e6dc-4562-9a1a-18f4f61c902d"
+                },
+                {
+                    "name": "geometry2",
+                    "ioValue": "eedd9198-4b01-4e42-bdac-4597b627dff8"
+                }
+            ],
+            "description": "Subtracts shape two from shape one."
         }
     ],
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "number or geometry",
+            "ap2Name": "geometry2",
             "ap2Primary": false,
             "ap1ID": "eedd9198-4b01-4e42-bdac-4597b627dff8",
-            "ap2ID": "2982e743-f809-4b3f-a569-4e890f2bab7f"
+            "ap2ID": "3c2dd314-9f91-4067-a225-a774d82b63ae"
         },
         {
             "ap1Name": "Geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": "9f2691bc-e6dc-4562-9a1a-18f4f61c902d",
+            "ap2ID": "3c2dd314-9f91-4067-a225-a774d82b63ae"
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": "3c2dd314-9f91-4067-a225-a774d82b63ae",
+            "ap2ID": "2982e743-f809-4b3f-a569-4e890f2bab7f"
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": false,
-            "ap1ID": "eedd9198-4b01-4e42-bdac-4597b627dff8",
+            "ap1ID": "3c2dd314-9f91-4067-a225-a774d82b63ae",
             "ap2ID": "89733579-d020-4940-968f-237020018333"
         }
     ],
