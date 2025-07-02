@@ -50,7 +50,7 @@
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.5811320754716981,
-                    "y": 0.2811881188118812,
+                    "y": 0.2673267326732673,
                     "uniqueID": "340b4618-4634-4ea2-ba76-0d438254418a",
                     "ioValues": [
                         {
@@ -101,8 +101,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5976415094339623,
-                    "y": 0.5188118811881188,
+                    "x": 0.560377358490566,
+                    "y": 0.6217821782178218,
                     "uniqueID": "7e62a3a7-6e92-406d-8e4c-feb948ac6319",
                     "ioValues": [
                         {
@@ -396,7 +396,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7221698113207548,
+                    "x": 0.7283018867924528,
                     "y": 0.4376237623762376,
                     "uniqueID": "c3b865d2-5683-45aa-b826-2c579b467dfa",
                     "ioValues": [
@@ -415,6 +415,18 @@
                         {
                             "name": "Shape 4",
                             "ioValue": "ad8c4bc5-1e7b-4b3a-954b-535f8085383f"
+                        },
+                        {
+                            "name": "Shape 5",
+                            "ioValue": "340b4618-4634-4ea2-ba76-0d438254418a"
+                        },
+                        {
+                            "name": "Shape 6",
+                            "ioValue": "8c732d39-baef-4b39-bdfa-940dfb90c3f5"
+                        },
+                        {
+                            "name": "Shape 7",
+                            "ioValue": "7e62a3a7-6e92-406d-8e4c-feb948ac6319"
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
@@ -447,6 +459,27 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": "340b4618-4634-4ea2-ba76-0d438254418a",
+                    "ap2ID": "c3b865d2-5683-45aa-b826-2c579b467dfa"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": "8c732d39-baef-4b39-bdfa-940dfb90c3f5",
+                    "ap2ID": "c3b865d2-5683-45aa-b826-2c579b467dfa"
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": "7e62a3a7-6e92-406d-8e4c-feb948ac6319",
+                    "ap2ID": "c3b865d2-5683-45aa-b826-2c579b467dfa"
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 1",
@@ -658,7 +691,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -70
+                            "ioValue": 70
                         },
                         {
                             "name": "yDist",
@@ -834,7 +867,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 10
+                            "ioValue": -10
                         },
                         {
                             "name": "yDist",
