@@ -302,7 +302,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": 10
+                            "ioValue": -25
                         },
                         {
                             "name": "yDist",
@@ -310,7 +310,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -23
+                            "ioValue": 0
                         }
                     ],
                     "description": "Moves a shape laterally in X, Y, Z."
@@ -396,8 +396,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.718867924528302,
-                    "y": 0.45742574257425744,
+                    "x": 0.7212264150943396,
+                    "y": 0.44554455445544555,
                     "uniqueID": "c3b865d2-5683-45aa-b826-2c579b467dfa",
                     "ioValues": [
                         {
